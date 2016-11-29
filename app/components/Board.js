@@ -41,6 +41,7 @@ var Board = React.createClass({
     render: function(){
         return(
             <div>
+                <textarea ref="newText" ></textarea>
                 <button onClick={this.add.bind(null, 'Default Text')} className="button-info create">Add new</button>
                 <div className="board">
                     {

@@ -25,7 +25,7 @@ var Comment = React.createClass({
         return(
             <div className="commentContainer">
                 <div className="commentText">{this.props.children}</div>
-                <button onClick={this.edit} className="button-primary">Edit</button>
+                    <button onClick={this.edit} className="button-primary">Edit</button>
                 <button onClick={this.remove} className="button-danger">Remove</button>
             </div>
         );
